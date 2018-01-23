@@ -1,12 +1,12 @@
 {
     "distribution_style": true,
-    "identifier": "com.erikng.installapplications",
+    "identifier": "com.matw.installapplications",
     "install_location": "/",
     "name": "InstallApplications-${version}.pkg",
     "ownership": "recommended",
     "postinstall_action": "none",
     "signing_info": {
-        "identity": "Mac Installer: Erik Gomez (XXXXXXXXXXX)",
+        "identity": "Developer ID Installer: SGK LLC (9YH6MPJAUJ)",
         "timestamp": true
     },
     "suppress_bundle_relocation": true,
