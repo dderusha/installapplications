@@ -9,22 +9,21 @@
 		<string>/usr/bin/python</string>
 		<string>/Library/Application Support/installapplications/installapplications.py</string>
 		<string>--jsonurl</string>
-		<string>https://eitdesktoprepo.schawk.com/api/v3/projects/extra-resources%2Fresources/repository/blobs/testbranch?filepath=matw_bootstrap.json&private_token=_mS9AyxQ6bEeyiGRujiX</string>
+		<string>https://eitdesktoprepo.schawk.com/api/v3/projects/extra-resources%2Fresources/repository/blobs/testbranch?filepath=InstallApplications/v2/matw_bootstrap.json&private_token=_mS9AyxQ6bEeyiGRujiX</string>
+		<string>--iapath</string>
+		<string>/Library/Application Support/installapplications</string>
+		<string>--laidentifier</string>
+		<string>com.matw.installapplications</string>
+		<string>--ldidentifier</string>
+		<string>com.matw.installapplications</string>
 		<string>--depnotify</string>
-		<!-- <string>--iapath</string> -->
-		<!-- <string>/Library/Application Support/installapplications</string> -->
-		<!-- <string>--laidentifier</string> -->
-		<!-- <string>com.erikng.installapplications</string> -->
-		<!-- <string>--ldidentifier</string> -->
-		<!-- <string>com.erikng.installapplications</string> -->
-		<!-- <string>--depnotify</string> -->
 		<string>DEPNotifySkipStatus</string>
-		<string>Command: WindowTitle: MATW Automation Engine</string>
+		<string>Command: WindowTitle: Welcome to MATW's Automation Engine</string>
 		<!-- <string>Command: NotificationOn:</string> -->
-		<string>Command: Quit: Thank you for using MATW's automation engine.</string>
+		<string>Command: Quit: Thanks for using MATW's Automation Engine.</string>
 		<!-- <string>Command: WindowStyle: ActivateOnStep</string> -->
 		<string>DEPNotifyPath: /Applications/Utilities/DEPNotify.app</string>
-		<!-- <string>DEPNotifyArguments: -munki</string> -->
+		<string>DEPNotifyArguments: -filewave</string>
 		<!-- <string>DEPNotifyArguments: -munki -fullScreen</string> -->
 		<!-- <string>--reboot</string> -->
 		<!-- <string>--skip-validation</string/> -->
